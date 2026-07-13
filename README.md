@@ -6,7 +6,7 @@ This allowed functions to wrap `setAtom` and enforce typechecking at compile tim
 
 With Salesforce's shipped type definitions, I am now forced to type all of my return functions as `(...args: unknown[]) => void` which means I have lost the type safety that I was relying on. 
 
-The two components demonstrate this in this repo. 
+The two components demonstrate this in this repo - [force-app/main/default/lwc/stateMgr](force-app/main/default/lwc/stateMgr/stateMgr.ts) and [force-app/main/default/lwc/stateConsumer](force-app/main/default/lwc/stateMgr/stateConsumer.ts). 
 
 My own original typescript definition file is below: 
 ```typescript
